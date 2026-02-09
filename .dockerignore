@@ -62,3 +62,6 @@ docker-compose.yml
 .vite
 .turbo
 .eslintcache
+
+example-data/
+example-images/

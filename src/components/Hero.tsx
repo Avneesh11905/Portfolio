@@ -15,6 +15,7 @@ export default function Hero() {
     const { content, loading } = useContent();
     const profile = content?.profile;
     const profileImage = profile?.profileImage ? getImagePath(profile.profileImage) : '';
+    const contact = content?.contact;
 
     if (loading) {
         return <HeroSkeleton />;
@@ -86,23 +87,23 @@ export default function Hero() {
 
                     {/* Social Links */}
                     <div className="flex gap-4 justify-center">
-                        {profile?.github && (
+                        {contact?.github && (
                             <Button variant="outline" size="icon" className="h-11 w-11 rounded-lg" asChild>
-                                <a href={profile.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <a href={contact.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                     <Github className="h-5 w-5" />
                                 </a>
                             </Button>
                         )}
-                        {profile?.linkedin && (
+                        {contact?.linkedin && (
                             <Button variant="outline" size="icon" className="h-11 w-11 rounded-lg" asChild>
-                                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                     <Linkedin className="h-5 w-5" />
                                 </a>
                             </Button>
                         )}
-                        {profile?.email && (
+                        {contact?.email && (
                             <Button variant="outline" size="icon" className="h-11 w-11 rounded-lg" asChild>
-                                <a href={`mailto:${profile.email}`} target="_blank" rel="noopener noreferrer" aria-label="Email">
+                                <a href={`mailto:${contact.email}`} target="_blank" rel="noopener noreferrer" aria-label="Email">
                                     <Mail className="h-5 w-5" />
                                 </a>
                             </Button>

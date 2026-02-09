@@ -4,8 +4,5 @@
     "subtitle": "Full Stack Developer | UI/UX Enthusiast",
     "bio": "I am a passionate developer with a love for creating beautiful and functional web applications.",
     "location": "San Francisco, CA",
-    "profileImage": "example-profile.jpg",
-    "email": "john.doe@example.com",
-    "github": "https://github.com/johndoe",
-    "linkedin": "https://linkedin.com/in/johndoe"
+    "profileImage": "example-profile.jpg"
 }

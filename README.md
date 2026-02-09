@@ -49,10 +49,7 @@ portfolio/
   "title": "Your Title",
   "subtitle": "Short tagline",
   "bio": "Brief description about yourself",
-  "profileImage": "profile.webp",
-  "email": "you@example.com",
-  "github": "https://github.com/username",
-  "linkedin": "https://linkedin.com/in/username",
+  "profileImage": "profile.webp"
 }
 ```
 

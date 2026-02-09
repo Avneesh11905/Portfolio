@@ -7,9 +7,6 @@ interface Profile {
     bio: string;
     location: string;
     profileImage?: string;
-    email?: string;
-    github?: string;
-    linkedin?: string;
 }
 
 interface Project {
