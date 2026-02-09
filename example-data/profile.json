@@ -7,10 +7,5 @@
     "profileImage": "example-profile.jpg",
     "email": "john.doe@example.com",
     "github": "https://github.com/johndoe",
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "stats": {
-        "yearsOfExperience": "5+",
-        "projectsCompleted": "50+",
-        "technologiesMastered": "10+"
-    }
+    "linkedin": "https://linkedin.com/in/johndoe"
 }

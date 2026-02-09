@@ -53,11 +53,6 @@ portfolio/
   "email": "you@example.com",
   "github": "https://github.com/username",
   "linkedin": "https://linkedin.com/in/username",
-  "stats": {
-    "yearsOfExperience": "2+",
-    "projectsCompleted": "15+",
-    "technologiesMastered": "20+"
-  }
 }
 ```
 

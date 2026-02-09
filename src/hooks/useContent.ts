@@ -10,11 +10,6 @@ interface Profile {
     email?: string;
     github?: string;
     linkedin?: string;
-    stats: {
-        yearsOfExperience: string;
-        projectsCompleted: string;
-        technologiesMastered: string;
-    };
 }
 
 interface Project {
