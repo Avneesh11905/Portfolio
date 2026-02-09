@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Example Project 1",
+        "description": "This is a description of the first example project. It highlights the key features and technologies used.",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+        ],
+        "github": "https://github.com/example/project1",
+        "demo": "https://project1.example.com",
+        "image": "example-project-1.jpg"
+    },
+    {
+        "title": "Example Project 2",
+        "description": "This is a description of the second example project. It focuses on backend technologies and API development.",
+        "tags": [
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ],
+        "github": "https://github.com/example/project2"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Example Certification 1",
+        "issuer": "Example University",
+        "status": "In Progress",
+        "description": "This is an example description for a certification that is currently in progress.",
+        "inProgress": true
+    },
+    {
+        "title": "Example Certification 2",
+        "issuer": "Tech Certification Body",
+        "status": "Completed",
+        "description": "This is an example description for a completed certification.",
+        "inProgress": false
+    }
+]

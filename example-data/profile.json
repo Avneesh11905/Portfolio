@@ -1,0 +1,16 @@
+{
+    "name": "John Doe",
+    "title": "Senior Software Engineer",
+    "subtitle": "Full Stack Developer | UI/UX Enthusiast",
+    "bio": "I am a passionate developer with a love for creating beautiful and functional web applications.",
+    "location": "San Francisco, CA",
+    "profileImage": "example-profile.jpg",
+    "email": "john.doe@example.com",
+    "github": "https://github.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "stats": {
+        "yearsOfExperience": "5+",
+        "projectsCompleted": "50+",
+        "technologiesMastered": "10+"
+    }
+}

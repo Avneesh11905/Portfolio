@@ -1,0 +1,11 @@
+1. Title: Clear, concise project name
+2. Description: 
+    What it does (1 sentence)
+    Key features (1-2 highlights)
+    Keep it under 100 words
+3. Tags:
+    List 3-6 main technologies
+    Order by importance/prominence
+4. Links:
+    github: Full GitHub repo URL
+    demo: Live demo URL or '#' if none

@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/dist/data
+      - ./images:/app/dist/images
+    restart: unless-stopped

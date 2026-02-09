@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <g fill="#FFFFFF">
+    <!-- Left curly brace { -->
+    <path d="M 150 120 L 120 120 Q 90 120 90 150 L 90 200 Q 90 230 70 230 L 60 230 L 60 280 L 70 280 Q 90 280 90 310 L 90 360 Q 90 390 120 390 L 150 390 L 150 360 L 130 360 Q 120 360 120 350 L 120 310 Q 120 270 90 260 Q 120 250 120 210 L 120 150 Q 120 140 130 140 L 150 140 Z" stroke="#FFFFFF" stroke-width="8"/>
+    
+    <!-- Slash / -->
+    <path d="M 230 380 L 280 130" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round"/>
+    
+    <!-- Right curly brace } -->
+    <path d="M 362 120 L 392 120 Q 422 120 422 150 L 422 200 Q 422 230 442 230 L 452 230 L 452 280 L 442 280 Q 422 280 422 310 L 422 360 Q 422 390 392 390 L 362 390 L 362 360 L 382 360 Q 392 360 392 350 L 392 310 Q 392 270 422 260 Q 392 250 392 210 L 392 150 Q 392 140 382 140 L 362 140 Z" stroke="#FFFFFF" stroke-width="8"/>
+  </g>
+</svg>

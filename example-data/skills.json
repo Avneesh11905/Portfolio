@@ -1,0 +1,30 @@
+[
+    {
+        "category": "Frontend",
+        "icon": "Layout",
+        "items": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ]
+    },
+    {
+        "category": "Backend",
+        "icon": "Server",
+        "items": [
+            "Node.js",
+            "Python",
+            "Java"
+        ]
+    },
+    {
+        "category": "Tools",
+        "icon": "Wrench",
+        "items": [
+            "Git",
+            "Docker",
+            "VS Code"
+        ]
+    }
+]
