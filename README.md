@@ -9,18 +9,28 @@ npm install
 npm run dev
 ```
 
+## Features
+
+- **Dynamic Content**: All text and data driven by JSON files in `data/`.
+- **Skeleton Loaders**: Polished loading states with animations for all sections.
+- **SEO Optimized**: Dynamic meta tags and OpenGraph support.
+- **Responsive Design**: Mobile-friendly swipeable carousels and layouts.
+- **Themeable**: Built with Tailwind CSS and shadcn/ui.
+
 ## Folder Structure
 
 ```
 portfolio/
-├── data/                    # Editable JSON content
+├── data/                    # Editable JSON content (see example-data/)
 │   ├── profile.json         # Personal info & stats
 │   ├── projects.json        # Project cards
 │   ├── skills.json          # Skill categories
 │   ├── certifications.json  # Certifications
 │   └── contact.json         # Contact links
-├── public/
-│   └── images/              # Profile & project images
+├── example-data/            # Reference JSON templates
+├── example-images/          # Reference images
+├── images/                  # Profile & project images (mounted in Docker)
+├── public/                  # Static assets (favicons, etc.)
 ├── src/
 │   ├── components/          # React components
 │   └── hooks/
@@ -118,9 +128,13 @@ portfolio/
 }
 ```
 
+*Note: These values populate the Contact section and social links in the Hero.*
+
 ## Images
 
-Place images in `public/images/`. Reference by filename only:
+Place images in `images/` (in the project root) or `public/images/`.
+
+Reference by filename only (e.g. `profile.png`). The application will look in `/images/` automatically.
 
 ```json
 {
